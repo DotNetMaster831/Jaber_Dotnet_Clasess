@@ -17,23 +17,23 @@ namespace ConsoleApp1
             Console.Title = "School Management System";
 
             //To set colors for console data.
-            //Console.ForegroundColor = ConsoleColor.DarkGreen;
-            //Console.BackgroundColor = ConsoleColor.White;
-            //Console.WriteLine("Hello worldkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk");
-            //Console.ResetColor();
-            //Console.WriteLine("Hello Jaber");
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.BackgroundColor = ConsoleColor.White;
+            Console.WriteLine("Hello worldkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk");
+            Console.ResetColor();
+            Console.WriteLine("Hello Jaber");
 
-            //Console.
-            //Console.WindowHeight = 80;
-            //Console.WindowWidth = 25;
+       
+            Console.WindowHeight = 80;
+            Console.WindowWidth = 25;
 
-            //Console.BufferHeight = 1000;
-            //Console.BufferWidth = 100;
+            Console.BufferHeight = 1000;
+            Console.BufferWidth = 100;
 
-            ////Console.CursorVisible = false;
+            //Console.CursorVisible = false;
 
-            //Console.CursorTop = 200;
-            //Console.CursorLeft = 50;
+            Console.CursorTop = 200;
+            Console.CursorLeft = 50;
 
             //Development vs Production in Software world?
 
