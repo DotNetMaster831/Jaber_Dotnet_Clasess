@@ -9,28 +9,49 @@ namespace ConsoleApp1
         public static void PrintBillingSystem()
         {
 
-            Console.WriteLine("Enter customer Name: "); //font color Red
-            string customer = Console.ReadLine();            
-            
-            
-            Console.WriteLine("Enter Product Name: "); //color yellow
+            Console.ForegroundColor = ConsoleColor.Red;
+
+            Console.WriteLine("Enter customer name: ");
+            string customer = Console.ReadLine();
+
+            Console.ResetColor();
+
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+
+            Console.WriteLine("Enter product name: ");
             string product = Console.ReadLine();
 
-            Console.WriteLine("Enter Quantity: "); // color is blue
+            Console.ResetColor();
+
+
+            Console.ForegroundColor = ConsoleColor.Blue;
+
+            Console.WriteLine("Enter quantity: ");
             string quantity = Console.ReadLine();
 
-            Console.WriteLine("Enter Price for each qty: "); //color is megenta
+            Console.ResetColor();
+
+
+            Console.ForegroundColor = ConsoleColor.Magenta;
+
+            Console.WriteLine("Enter price for each qty: ");
             string price = Console.ReadLine();
 
+            Console.ResetColor();
 
 
-            //color Green
-            Console.WriteLine($"Customer: {customer}");
-            Console.WriteLine($"Product: {product}");
-            Console.WriteLine($"Qty: {quantity}");
-            Console.WriteLine($"Price: {price}");
+            Console.ForegroundColor = ConsoleColor.Green;
 
-            //Beep Sound in the end
+            Console.WriteLine($"Customer: {customer} ");
+            Console.WriteLine($"Product: {product} ");
+            Console.WriteLine($"Quantity: {quantity} ");
+            Console.WriteLine($"Price: {price} ");
+
+            Console.Beep();
+
+            Console.ReadKey();
+
 
         }
 
