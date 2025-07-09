@@ -10,6 +10,10 @@ namespace Loops
     {
         static void Main(string[] args)
         {
+
+            string gg = "";
+            String hh = "";
+
             /*
              * Loops are alo called as repeating statement or iterative statements
              */
